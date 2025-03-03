@@ -47,7 +47,8 @@ Start -> `LLM -> Decision Edge -> Action Node -> LLM`
 4. Define system prompt
 5. Invoke Agent search with User Prompt
 
-```flowchart LR
+```mermaid
+flowchart LR
 node1([LLM Node]) --> edge1{Action Edge}
 edge1 -->|True| node2([Action Node]) --> node1
 edge1 -->|False| node3([END])
