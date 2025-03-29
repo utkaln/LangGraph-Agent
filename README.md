@@ -15,11 +15,11 @@ Agent AI using LangGraph with Open AI
 ## How to Run
 1. Create Virtual Environment
     ```sh
-    python -m venv env
+    python3 -m venv .venv
     ```
 2. Activate Virtual Environment
     ```sh
-    source env/bin/activate
+    source .venv/bin/activate
     ```
 2. Install libraries
     ```sh
