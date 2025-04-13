@@ -1,0 +1,28 @@
+{
+    "properties": {
+        "name": {
+            "title": "Name",
+            "type": "string"
+        },
+        "age": {
+            "title": "Age",
+            "type": "integer"
+        },
+        "email": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "required": [
+            "name",
+            "age"
+        ],
+        "title": "Person",
+        "type": "object"
+    }
+}
