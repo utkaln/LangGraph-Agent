@@ -8,6 +8,9 @@ langchain_anthropic
 tavily-python
 typing
 langchain_google_genai
+sqlite3
+langchain_google_community
+yfinance
 
 
 
