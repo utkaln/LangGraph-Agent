@@ -9,7 +9,6 @@ typing
 langchain_google_genai
 langchain_google_community
 pydantic
-
-
+chromadb
 
 
