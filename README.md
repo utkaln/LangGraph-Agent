@@ -64,3 +64,7 @@ edge1 -->|False| node3([END])
 - Continue the chain of thought from LLM as it is processing instead of waiting for the entire process to be complete
 
 
+## Authentication
+- Reference : https://langchain-ai.github.io/langgraph/tutorials/auth/getting_started/ 
+
+
